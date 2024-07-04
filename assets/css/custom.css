@@ -1,0 +1,119 @@
+body {
+    overflow-x: hidden;
+}
+/* Snippet background*/
+.prose .chroma {
+    background-color: #282C34;
+}
+.prose .chroma:is(.dark *) {
+    background-color: #282C34;
+}
+.dark\:prose-invert:is(.dark *) :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    background-color: #282C34   ;
+}
+
+/*Text color*/
+.chroma .p {
+    color: #E5C07B;
+}
+.chroma .p:is(.dark *) {
+    color: #E5C07B;
+}
+
+/*Funcs color*/
+.chroma .nb {
+    color: #61AFEF
+}
+.chroma .nb:is(.dark *) {
+    color: #61AFEF
+}
+
+/*Funcs color*/
+.chroma .na {
+    color: rgba(var(--color-secondary-400),var(--tw-text-opacity));
+}
+.chroma .na:is(.dark *) {
+    color: rgba(var(--color-secondary-400),var(--tw-text-opacity));
+}
+
+.chroma .m {
+    color: rgba(var(--color-secondary-400),var(--tw-text-opacity));
+}
+.chroma .m:is(.dark *) {
+    color: rgba(var(--color-secondary-400),var(--tw-text-opacity));
+}
+
+/* word color*/
+.chroma .nt {
+    color: rgba(var(--color-secondary-300),var(--tw-text-opacity));
+}
+
+.chroma .l {
+    color: rgba(var(--color-primary-400),var(--tw-text-opacity));
+}
+
+.chroma .k {
+    color: rgba(var(--color-primary-300),var(--tw-text-opacity));
+}
+
+.chroma .o {
+    color: rgba(var(--color-primary-300),var(--tw-text-opacity));
+}
+
+.chroma .s {
+    --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-400),var(--tw-text-opacity));
+}
+.chroma .s1 {
+    color: #98C379
+}
+.chroma .s1:is(.dark *) {
+    color: #98C379
+}
+.chroma .s2 {
+    color: #98C379;
+}
+.chroma .s2:is(.dark *) {
+    color: #98C379;
+}
+
+.prose .chroma {
+    --tw-text-opacity: 1;
+    color: rgba(var(--color-neutral-200),var(--tw-text-opacity));
+}
+
+/*img frame*/
+.my-0 {
+    border: #016542 solid 1px;
+}
+
+.typeit-homepage {
+    color: rgba(var(--color-primary-400),var(--tw-text-opacity));
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.pre-typeit {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* @media (min-width: 1024px) {
+    .lg\:w-auto {
+      width: 200%;
+    }
+  }
+
+@media (min-width: 1024px) {
+    .lg\:h-full {
+      height: 140%;
+    }
+  }
+ */
+.thumbnail {
+    background-size: 60%;
+}
+
+.duck {
+    height: 50%;
+}
