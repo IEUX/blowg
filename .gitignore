@@ -1,2 +1,5 @@
 # Exclude `content` from git to prevent AI feeding
 content/
+
+# Build residual
+.hugo_build.lock
