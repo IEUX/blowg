@@ -1,0 +1,2 @@
+# Exclude `content` from git to prevent AI feeding
+content/
